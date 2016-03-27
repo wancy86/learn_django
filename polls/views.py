@@ -6,6 +6,10 @@ from django.core.urlresolvers import reverse
 from django.shortcuts import render
 from django.http import Http404
 
+# TODO
+# Leaning Place:
+# https://docs.djangoproject.com/en/1.9/intro/tutorial05/#testing-our-new-view
+
 from .models import Question
 def index(request):
     latest_question_list = Question.objects.order_by('-pub_date')[:5]
