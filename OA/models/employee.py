@@ -19,3 +19,17 @@ class Employee(models.Model):
         return now - datetime.timedelta(days=1) <= self.pub_date <= now
 
 
+# no changes added to commit (use "git add" and/or "git commit -a")
+# Please input comment:
+# SublimeCodeIntel
+# [master 8dba20f] SublimeCodeIntel
+#  1 file changed, 1 insertion(+), 1 deletion(-)
+# Warning: Permanently added the RSA host key for IP address '192.30.252.120' to the list of known hosts.
+# Enter passphrase for key '/c/Users/Mark/.ssh/id_rsa':
+# Counting objects: 5, done.
+# Delta compression using up to 4 threads.
+# Compressing objects: 100% (5/5), done.
+# Writing objects: 100% (5/5), 594 bytes | 0 bytes/s, done.
+# Total 5 (delta 3), reused 0 (delta 0)
+# To git@github.com:wancy86/learn_django.git
+#    0d8a169..8dba20f  master -> master
